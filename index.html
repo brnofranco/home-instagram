@@ -11,57 +11,63 @@
 </head>
 <body>
   <main>
-    <div id="main-container">
       <div id="banner-container">
         <img src="img/imagem_cel_exterior.png" alt="Crie uma conta no Instagram">
       </div>
       <div id="form-container">
-        <div id="form-box">
-          <img id="logo-insta" src="img/logo_instagram.png" alt="Instagram">
-          <form id="login-form">
-            <input type="text" name="username" placeholder="Telefone, nome de usuário ou email">
-            <input type="password" name="password" placeholder="Senha">
-            <button type="submit"> Entrar </button>
-          </form>
-          <div class="separator"> OU </div>
-          <a href="#">
-            <img src="img/logo_facebook.svg" alt="Facebook">
-            <span>Entrar com o Facebook</span>
-          </a>
-          <a href="#">Esqueceu a senha?</a>
-        </div>
-        <div id="form-box">
-          <p> Não tem uma conta? <a href="#"> Cadastre-se </a></p>
-        </div>
-        <div id="get-app-container">
-          <p> Obtenha o aplicativo. </p>
-          <a href="#">
-            <img src="img/botao_apple.png" alt="Apple Store">
-          </a>
-          <a href="#">
-            <img src="img/botao_google_play.png" alt="Google Play">
-          </a>
+        <div id="form-content">
+          <div id="form-box">
+            <img id="logo-insta" src="img/logo_instagram.png" alt="Instagram">
+            <form id="login-form">
+              <input type="text" name="username" placeholder="Telefone, nome de usuário ou email">
+              <input type="password" name="password" placeholder="Senha">
+              <button type="submit"> Entrar </button>
+            </form>
+            <div class="separator"> OU </div>
+            <div id="text">
+              <a href="#" id="login-facebook">
+                <img src="img/logo_facebook.svg" alt="Facebook" width="20px">
+                <span>Entrar com o Facebook</span>
+              </a>
+              <a href="#" id="forgot-password">Esqueceu a senha?</a>
+            </div>
+          </div>
+          <div id="form-box">
+            <p> Não tem uma conta? <a href="#"> Cadastre-se </a></p>
+          </div>
+          <div id="get-app-container">
+            <p> Obtenha o aplicativo. </p>
+            <div id="app-buttons">            
+              <a href="#">
+                <img src="img/botao_apple.png" alt="Apple Store">
+              </a>
+              <a href="#">
+                <img src="img/botao_google_play.png" alt="Google Play">
+              </a>
+            </div>
+          </div>
         </div>
       </div>
-    </div>
   </main>
   <footer>
     <nav>
-      <ul id="footer-links">
+      <ul>
         <li><a href="#">Sobre</a></li>
-        <li><a href="#">Ajuda</a></li>
-        <li><a href="#">Imprensa</a></li>
-        <li><a href="#">API</a></li>
+        <li><a href="#">Blog</a></li>
         <li><a href="#">Carreiras</a></li>
+        <li><a href="#">Ajuda</a></li>
+        <li><a href="#">API</a></li>
         <li><a href="#">Privacidade</a></li>
         <li><a href="#">Termos</a></li>
-        <li><a href="#">Localizações</a></li>
-        <li><a href="#">Contas mais relevantes</a></li>
+        <li><a href="#">Principais contas</a></li>
         <li><a href="#">Hashtags</a></li>
-        <li><a href="#">Idioma</a></li>
+        <li><a href="#">Localizações</a></li>
       </ul>
     </nav>
-    <p id="copyright">&copy; Instagram do Facebook </p>
+    <div id="footer-links">
+      <p id="language"> Português (Brasil) </p>
+      <p id="copyright"> &copy; 2021 Instagram do Facebook </p>
+    </div>
   </footer>
 </body>
 </html>
